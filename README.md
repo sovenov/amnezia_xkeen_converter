@@ -4,3 +4,54 @@
 Работает офлайн в браузере. Можно скачать и пользоваться локально. В линковках только 'bootstrap.min.css'.
 
 Ссылка на index.html: https://sovenov.github.io/amnezia_xkeen_converter/
+
+
+Пример конфига amnezia_for_xray.json для первого инпута
+```
+{
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 22869,
+            "protocol": "socks",
+            "settings": {
+                "udp": true
+            }
+        }
+    ],
+    "log": {
+        "loglevel": "error"
+    },
+    "outbounds": [
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "115.42.69.228",
+                        "port": 443,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision",
+                                "id": "089e7783-2afc-4cd3-be3a-249ec7ebb499"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "realitySettings": {
+                    "fingerprint": "chrome",
+                    "publicKey": "fgHqFBnFGHJFERTfzv_FfqERtq3qc_Dfqg42qA3qxHn",
+                    "serverName": "www.vk.com",
+                    "shortId": "523f456cf14c412e",
+                    "spiderX": ""
+                },
+                "security": "reality"
+            }
+        }
+    ]
+}
+```
