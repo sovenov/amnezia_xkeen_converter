@@ -6,8 +6,8 @@
 Ссылка на index.html: https://sovenov.github.io/amnezia_xkeen_converter/
 
 
-Пример конфига amnezia_for_xray.json для первого инпута
-```
+<details>
+<summary>Раскрыть пример конфига amnezia_for_xray.json для первого инпута</summary>
 {
     "inbounds": [
         {
@@ -54,4 +54,4 @@
         }
     ]
 }
-```
+</details>
