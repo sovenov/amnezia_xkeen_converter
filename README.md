@@ -5,6 +5,8 @@
 
 Ссылка на index.html: https://sovenov.github.io/amnezia_xkeen_converter/
 
+Также для "05_routing.json" есть генератор конфигов: https://xray-routing-generator.netlify.app/
+
 
 <details>
 <summary>Раскрыть пример конфига amnezia_for_xray.json для первого инпута</summary>
