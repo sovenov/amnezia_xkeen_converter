@@ -2,10 +2,10 @@
 
 Конвертация конфига Amnezia Xray (amnezia_for_xray.json) в VLESS URL и в Xkeen (**04_outbounds.json**)
 
-Создано с помощью DeepSeek R1, с использованием <a href="https://corvus-malus.github.io/XKeen-Config-Generator/" target="_blank">corvus-malus.github.io/XKeen-Config-Generator</a>.
+Создано с помощью DeepSeek R1, с использованием <a href="https://corvus-malus.github.io/XKeen-Config-Generator/" target="_blank" rel="noopener noreferrer">corvus-malus.github.io/XKeen-Config-Generator</a>.
 Работает офлайн в браузере. Можно скачать и пользоваться локально.
 
-Для "**05_routing.json**" есть генератор конфигов: <a href="https://xray-routing-generator.netlify.app/" target="_blank">xray-routing-generator.netlify.app</a>
+Для "**05_routing.json**" есть генератор конфигов: <a href="https://xray-routing-generator.netlify.app/" target="_blank" rel="noopener noreferrer">xray-routing-generator.netlify.app</a>
 
 
 <details>
